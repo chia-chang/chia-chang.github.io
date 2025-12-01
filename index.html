@@ -2,8 +2,8 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hi there, I'm Chia 🌱👋</title>
     <style>
         * {
@@ -11,271 +11,230 @@
             padding: 0;
             box-sizing: border-box;
         }
-
-
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-        background: linear-gradient(135deg, #C2D5AA 0%, #a8c686 100%);
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        line-height: 1.6;
-    }
-
-    .container {
-        background: white;
-        border-radius: 20px;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-        max-width: 800px;
-        width: 100%;
-        padding: 60px 50px;
-        animation: fadeIn 0.8s ease;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(30px);
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #C2D5AA 0%, #a8c686 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            line-height: 1.6;
         }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    h1 {
-        font-size: 42px;
-        color: #2d3748;
-        margin-bottom: 10px;
-    }
-
-    .subtitle {
-        color: #718096;
-        font-size: 16px;
-        margin-bottom: 30px;
-        font-style: italic;
-    }
-
-    .intro {
-        color: #4a5568;
-        font-size: 18px;
-        margin-bottom: 40px;
-        line-height: 1.7;
-    }
-
-    .intro strong {
-        color: #2d3748;
-    }
-
-    h2 {
-        font-size: 28px;
-        color: #2d3748;
-        margin: 40px 0 20px 0;
-        border-bottom: 3px solid #C2D5AA;
-        padding-bottom: 10px;
-    }
-
-    .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        margin-bottom: 30px;
-    }
-
-    .skill-category {
-        background: #f7fafc;
-        padding: 20px;
-        border-radius: 10px;
-    }
-
-    .skill-category h3 {
-        color: #2d3748;
-        font-size: 16px;
-        margin-bottom: 10px;
-        font-weight: 600;
-    }
-
-    .skill-category p {
-        color: #4a5568;
-        font-size: 14px;
-        line-height: 1.6;
-    }
-
-    .project {
-        background: #f7fafc;
-        padding: 25px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
-
-    .project h3 a {
-        color: #2d3748;
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-
-    .project h3 a:hover {
-        color: #C2D5AA;
-    }
-
-    .project h3 {
-        color: #2d3748;
-        font-size: 20px;
-        margin-bottom: 8px;
-    }
-
-    .project .tech {
-        color: #718096;
-        font-size: 14px;
-        margin-bottom: 10px;
-        font-weight: 500;
-    }
-
-    .project p {
-        color: #4a5568;
-        font-size: 15px;
-        line-height: 1.6;
-    }
-
-    .cta-section {
-        background: linear-gradient(135deg, #C2D5AA 0%, #a8c686 100%);
-        padding: 40px;
-        border-radius: 15px;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .cta-section h2 {
-        color: white;
-        border: none;
-        margin: 0 0 20px 0;
-        font-size: 32px;
-    }
-
-    .github-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        background: white;
-        color: #2d3748;
-        padding: 15px 40px;
-        border-radius: 30px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 18px;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    }
-
-    .github-btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 6px 25px rgba(0,0,0,0.3);
-    }
-
-    .contact {
-        margin-top: 40px;
-        text-align: center;
-    }
-
-    .contact h2 {
-        border: none;
-    }
-
-    .contact a {
-        color: #C2D5AA;
-        text-decoration: none;
-        font-size: 12px;
-        font-weight: 500;
-        transition: color 0.3s ease;
-    }
-
-    .contact a:hover {
-        color: #a8c686;
-    }
-
-    @media (max-width: 600px) {
         .container {
-            padding: 40px 30px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            max-width: 800px;
+            width: 100%;
+            padding: 60px 50px;
+            animation: fadeIn 0.8s ease;
         }
-        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
         h1 {
-            font-size: 32px;
+            font-size: 42px;
+            color: #2d3748;
+            margin-bottom: 10px;
         }
-        
-        .cta-section h2 {
-            font-size: 24px;
+        .subtitle {
+            color: #718096;
+            font-size: 16px;
+            margin-bottom: 30px;
+            font-style: italic;
         }
-
+        .intro {
+            color: #4a5568;
+            font-size: 18px;
+            margin-bottom: 40px;
+            line-height: 1.7;
+        }
+        .intro strong {
+            color: #2d3748;
+        }
+        h2 {
+            font-size: 28px;
+            color: #2d3748;
+            margin: 40px 0 20px 0;
+            border-bottom: 3px solid #C2D5AA;
+            padding-bottom: 10px;
+        }
         .skills-grid {
-            grid-template-columns: 1fr;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
         }
-    }
-</style>
+        .skill-category {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .skill-category h3 {
+            color: #2d3748;
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .skill-category p {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .project {
+            background: #f7fafc;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .project h3 a {
+            color: #2d3748;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .project h3 a:hover {
+            color: #C2D5AA;
+        }
+        .project h3 {
+            color: #2d3748;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .project .tech {
+            color: #718096;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        .project p {
+            color: #4a5568;
+            font-size: 15px;
+            line-height: 1.6;
+        }
 
+        .button-container {
+            text-align: center;
+            margin-top: 50px;
+        }
 
+        .github-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #DCEBCA;
+            color: #2d3748;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .github-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+        }
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact h2 {
+            border: none;
+        }
+        .contact a {
+            color: #C2D5AA;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #a8c686;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            .github-btn {
+                font-size: 14px;
+                padding: 10px 25px;
+                margin-top: 40px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Hi there, I'm Chia 🌱👋</h1>
         <p class="subtitle">(Yes, just like chia seeds!)</p>
 
-
-    <p class="intro">
-        I'm a passionate <strong>Data Scientist</strong> who loves turning data into stories and insights. 
-        I specialize in making data tell its secrets with a blend of code, visualization, and modeling magic.
-    </p>
-
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-category">
-            <h3>Languages</h3>
-            <p>Python, SQL, Java, JavaScript</p>
-        </div>
-        <div class="skill-category">
-            <h3>Libraries</h3>
-            <p>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p>
-        </div>
-        <div class="skill-category">
-            <h3>Tools</h3>
-            <p>Jupyter, Looker Studio, Tableau, Datawrapper, Excel</p>
-        </div>
-        <div class="skill-category">
-            <h3>Databases</h3>
-            <p>MySQL, Snowflake, MongoDB, Neo4j, MS Access</p>
-        </div>
-    </div>
-
-    <h2>Featured Projects</h2>
-    
-    <div class="project">
-        <h3><a href="https://github.com/chia-chang/business-analytics-scenarios" target="_blank" style="color: #2d3748; text-decoration: none;">Business Analytics Scenarios →</a></h3>
-        <p class="tech">SQL</p>
-        <p>
-            Ad-hoc SQL analyses for 5 realistic business scenarios using a 100K+ order e-commerce dataset. 
-            Includes seller performance audits, late delivery investigation, campaign ROI measurement, and customer segmentation.
+        <p class="intro">
+            I'm a passionate <strong>Data Scientist</strong> who loves turning data into stories and insights. 
+            I specialize in making data tell its secrets with a blend of code, visualization, and modeling magic.
         </p>
-    </div>
 
-    <div class="project">
-        <h3><a href="https://github.com/chia-chang/covid-analytics-automation" target="_blank" style="color: #2d3748; text-decoration: none;">COVID Analytics Automation →</a></h3>
-        <p class="tech">Python</p>
-        <p>
-            Recreated my work from IBM where I automated COVID-19 reporting—built a pipeline that handles data cleaning, 
-            validation, and KPI calculations (7-day moving averages, test positivity, trends). Cut reporting time by 80% 
-            (3-4 hours → 15 minutes) in production.
-        </p>
-    </div>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <p>Python, SQL, Java, JavaScript</p>
+            </div>
+            <div class="skill-category">
+                <h3>Libraries</h3>
+                <p>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <p>Jupyter, Looker Studio, Tableau, Datawrapper, Excel</p>
+            </div>
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <p>MySQL, Snowflake, MongoDB, Neo4j, MS Access</p>
+            </div>
+        </div>
+
+        <h2>Featured Projects</h2>
         
-    <a href="https://github.com/chia-chang" class="github-btn" target="_blank">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-        </svg>
-        Check out my GitHub
-    </a>
-</div>
+        <div class="project">
+            <h3><a href="https://github.com/chia-chang/business-analytics-scenarios" target="_blank" style="color: #2d3748; text-decoration: none;">Business Analytics Scenarios →</a></h3>
+            <p class="tech">SQL</p>
+            <p>
+                Ad-hoc SQL analyses for 5 realistic business scenarios using a 100K+ order e-commerce dataset. 
+                Includes seller performance audits, late delivery investigation, campaign ROI measurement, and customer segmentation.
+            </p>
+        </div>
 
+        <div class="project">
+            <h3><a href="https://github.com/chia-chang/covid-analytics-automation" target="_blank" style="color: #2d3748; text-decoration: none;">COVID Analytics Automation →</a></h3>
+            <p class="tech">Python</p>
+            <p>
+                Recreated my work from IBM where I automated COVID-19 reporting—built a pipeline that handles data cleaning, 
+                validation, and KPI calculations (7-day moving averages, test positivity, trends). Cut reporting time by 80% 
+                (3-4 hours → 15 minutes) in production.
+            </p>
+        </div>
 
+        <div class="button-container">
+            <a href="https://github.com/chia-chang" class="github-btn" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                Check out my GitHub
+            </a>
+        </div>
+
+    </div>
 </body>
 </html>
